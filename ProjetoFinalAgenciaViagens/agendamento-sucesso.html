@@ -3,9 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Formulário de Viagens </title>
+  <title>Sucesso no Agendamento</title>
   <link rel="stylesheet" href="agendamento-sucesso.css">
-
   <link rel="stylesheet" href="nav.css">
 </head>
 
@@ -23,14 +22,14 @@
           <rect x="4" y="7" width="16" height="14" rx="2" />
           <path d="M8 7v14M16 7v14" />
         </svg><span>Pacotes</span></a>
-      <a class="active" href="conta.html?next=agendar-viagem.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+      <a href="agendar-viagem.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
           <rect x="4" y="5" width="16" height="16" rx="2" />
           <path d="M8 3v4M16 3v4M4 10h16M8 14h2M12 14h2M16 14h2M8 18h2M12 18h2" />
         </svg><span>Agendar</span></a>
-      <a href="conta.html?next=agendar-viagem.html"><svg class="ico user" viewBox="0 0 24 24" aria-hidden="true">
-          <circle cx="12" cy="7" r="4" />
-          <path d="M4 21c.8-4.4 4-7 8-7s7.2 2.6 8 7Z" />
-        </svg><span>Registar</span></a>
+      <a class="active" href="historico.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" />
+          <polyline points="12 6 12 12 16 14" />
+        </svg><span>Histórico</span></a>
       <a href="sobre.html">
         <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="12" cy="12" r="9" />
@@ -41,24 +40,27 @@
       </a>
     </div>
   </nav>
-  </div>
 
-  <br>
-  <br>
+  <br><br>
 
-
-  <div class="form-viagem">
+  <div class="form-viagem" style="text-align: center;">
     <h1 class="titulo">O seu pedido foi submetido com sucesso</h1>
-    <p>Será analisado pela nossa equipa, que brevemente entrará em contacto consigo no prazo máximo de 48
-      horas. </p>
+    <p>Será analisado pela nossa equipa, que brevemente entrará em contacto consigo no prazo máximo de 48 horas.</p>
+
+    <div style="margin-top: 25px;">
+      <a href="historico.html" style="text-decoration: none;">
+        <button type="button"
+          style="padding: 12px 24px; background-color: #0b3c5d; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+          Ver Histórico de Agendamentos
+        </button>
+      </a>
+    </div>
   </div>
+
   <footer>
-    <p class="copy">&copy: 2026 - Programação web (frontend)</p>
+    <p class="copy">&copy; 2026 — Programação web (frontend)</p>
   </footer>
-
-
 
 </body>
 
 </html>
-

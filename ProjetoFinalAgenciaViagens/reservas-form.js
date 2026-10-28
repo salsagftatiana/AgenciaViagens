@@ -98,3 +98,5 @@ setTimeout(() => {
     msg('Não foi possível validar a autenticação. Confirme a configuração do Firebase e entre na sua conta.', true);
   }
 }, 6000);
+
+
